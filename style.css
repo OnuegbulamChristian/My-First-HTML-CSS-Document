@@ -360,6 +360,11 @@
 .CTA_parent_div {
   height: 30vh;
 }
+.CTA_parent_div button {
+  width: 200px;
+  height: 50px;
+  background-color: blueviolet;
+}
 /* CTA section ends here */
 /* media queries */
 @media (max-width: 1024px) {
