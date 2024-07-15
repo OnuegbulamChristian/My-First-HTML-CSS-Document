@@ -336,10 +336,11 @@
   text-align: center;
 }
 .main_clients_parent_div h3 {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 40px;
   font-weight: 100;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
 }
 .main_clients_parent_image_div {
   display: flex;
@@ -347,8 +348,8 @@
   gap: 150px;
 }
 .main_clients_image_div {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 .main_clients_image_div img {
   width: 100%;
@@ -358,14 +359,48 @@
 /* main client page ends here */
 /* CTA section starts here */
 .CTA_parent_div {
-  height: 30vh;
+  height: 40vh;
+  background-color: #ecebeb;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.CTA_parent_div h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 80;
+  color: black;
 }
 .CTA_parent_div button {
-  width: 200px;
+  width: 250px;
   height: 50px;
   background-color: blueviolet;
+  border-style: solid;
+  border-color: transparent;
+  color: white;
 }
 /* CTA section ends here */
+/* footer section starts here */
+.footer_section_parent_div {
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer_section_parent_div h4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.footer_section_icons_div {
+  color: white;
+  justify-content: space-between;
+  gap: 30px;
+}
+/* footer section ends here */
 /* media queries */
 @media (max-width: 1024px) {
   .project_img_parent_div div {
